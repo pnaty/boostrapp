@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Homepage - Tema cărți</title>
+  <style>
+    .hero-section {
+      background-image: url('https://media.bzi.ro/unsafe/1060x596/smart/filters:contrast(5):format(webp):quality(80)/http://www.bzi.ro/wp-content/uploads/2022/02/soare.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+
+    .hero-section h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero-section .btn {
+      font-size: 24px;
+    }
+
+    .book-card {
+      margin-bottom: 20px;
+    }
+    .hover-zoom {
+    transition: transform 0.3s;
+  }
+
+  .hover-zoom:hover {
+    transform: scale(1.1);
+  }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="https://img3.stockfresh.com/files/m/maryvalery/m/99/7945080_stock-vector-city-logo-new-house-emblem-building-and-sun-sign-for-construc.jpg" alt="Tema cărți" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#Homepage">Acasă</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Colectii">Colecții</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Despre noi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="desprenoi" class="hero-section">
+    <h1>Bine ați venit!</h1>
+    <a href="#" class="btn btn-primary">Aflați mai multe</a>
+  </section>
+
+<main class="container mt-5">
+  <section>
+    <h2 class="text-center mb-4">Despre noi</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Giant_prominence_on_the_sun_erupted.jpg/400px-Giant_prominence_on_the_sun_erupted.jpg" alt="Despre noi" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod lectus a metus fringilla, at convallis felis dignissim. Sed lobortis risus id vestibulum vulputate. Fusce rutrum nunc id lacinia dignissim. Integer maximus lectus a interdum auctor. Etiam quis sapien turpis. Sed varius sem eget urna accumsan consequat. Praesent ut facilisis velit, id vestibulum neque. Donec pellentesque lectus vitae ex condimentum semper. Mauris sed ipsum nisi.</p>
+        <p>Curabitur tincidunt ligula quis lorem varius fringilla. Nullam in dolor ac sem fringilla tincidunt eu vitae nulla. Phasellus imperdiet, tortor ac elementum cursus, arcu lacus sollicitudin orci, in egestas arcu mauris id leo. Proin rutrum elit ac nunc lobortis, eget fermentum urna pellentesque. Nunc gravida cursus tincidunt. Aenean consequat placerat sagittis. Duis lobortis, mauris at malesuada interdum, est metus fermentum lectus, ac auctor lectus lacus non dui.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+
+ 
+ <main id="colectii" class="container mt-5">
+  <h2 class="text-center mb-4">Colectii</h2>
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card book-card hover-zoom">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Giant_prominence_on_the_sun_erupted.jpg/400px-Giant_prominence_on_the_sun_erupted.jpg" class="card-img-top" alt="Book 1">
+        <div class="card-body">
+
+          <h5 class="card-title">Titlu carte 1</h5>
+          <p class="card-text">Descriere scurtă a cărții 1.</p>
+          <a href="#" class="btn btn-primary">Detalii</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card book-card hover-zoom">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Giant_prominence_on_the_sun_erupted.jpg/400px-Giant_prominence_on_the_sun_erupted.jpg" class="card-img-top" alt="Book 2">
+        <div class="card-body">
+          <h5 class="card-title">Titlu carte 2</h5>
+          <p class="card-text">Descriere scurtă a cărții 2.</p>
+          <a href="#" class="btn btn-primary">Detalii</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card book-card hover-zoom">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Giant_prominence_on_the_sun_erupted.jpg/400px-Giant_prominence_on_the_sun_erupted.jpg" class="card-img-top" alt="Book 3">
+        <div class="card-body">
+          <h5 class="card-title">Titlu carte 3</h5>
+          <p class="card-text">Descriere scurtă a cărții 3.</p>
+          <a href="#" class="btn btn-primary">Detalii</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Contactează-ne</h2>
+      <form action="formular.php" method="POST">
+        <div class="form-group">
+          <label for="name">Nume</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Introdu numele tău">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Introdu adresa ta de email">
+        </div>
+        <div class="form-group">
+          <label for="message">Mesaj</label>
+          <textarea class="form-control" id="message" name="message" rows="5" placeholder="Scrie mesajul tău"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Trimite</button>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <h2>Locație</h2>
+      <p>Adresa: Strada Exemplu, Orașul Tău, 12345</p>
+      <p>Email: contact@example.com</p>
+      <p>Telefon: 123-456-789</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86998.48158435551!2d28.702897297265604!3d47.04606730000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97cff0bb3078b%3A0x5ef85ec21761c944!2zTGljZXVsIFRlb3JldGljIOKAnsiYdGVmYW4gY2VsIE1hcmXigJ0!5e0!3m2!1sro!2s!4v1687092663019!5m2!1sro!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</main>
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>© 2023 Tema cărți. Toate drepturile rezervate.</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
